@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+
+  font-family: sans-serif;
+  background: #fdff28;
+  background: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+section {
+  margin: 1rem;
+  max-width: min(100%, 900px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.protect-the-protest {
+  text-align: center;
+}
+
+.ptp-container {
+  max-width: 100%;
+  text-align: center;
+}
+
+.ptp-container img {
+  max-width: 60%;
+
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.iranian-students .text-wrapper {
+  width: 530px;
+  height: 530px;
+}
+
+.iranian-students .text {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 0) 70.3%
+  );
+  color: #fdff28;
+
+  border-radius: 50%;
+
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.iranian-students .text p {
+  max-width: min(70%, 90vw);
+}
+
+.iranian-students .pictures {
+  margin-top: -5rem;
+}
+
+.iranian-students .pictures img {
+  margin: 0 1rem;
+}
+
+.iranian-students a {
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  background: black;
+  color: white;
+
+  text-align: center;
+
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.sos {
+  color: #fdff28;
+}
+
+.sos h1 {
+  font-size: 3rem;
+  max-width: 300px;
+  text-align: center;
+
+  line-height: 1.4em;
+  margin-bottom: 0;
+}
+
+footer a {
+  color: white;
+}
+
+nav a {
+  margin: 0 1rem;
+}
+
+.chains {
+  width: 100%;
+  height: 30px;
+
+  background-repeat: repeat-x;
+  background-size: contain;
+  margin: 1.5rem 0;
+}
+
+.chains-yellow {
+  background-image: url(chains-yellow.png);
+}
+
+.chains-black {
+  background-image: url(chains-black.png);
+}
+
+header p {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: -1rem;
+}
